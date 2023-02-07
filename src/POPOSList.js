@@ -2,6 +2,7 @@
 // a component that will display a list of spaces
 
 import POPOSSpace from "./POPOSSpace";
+import './POPOSList.css';
 
 function POPOSList() {
   return (
@@ -11,7 +12,6 @@ function POPOSList() {
         address="50 California St."
         image="50-california-st.jpg"
       />
-      <h1>Keep your eye on this space for future content...</h1>
       <POPOSSpace
         name="100 Pine Street"
         address="100 Pine St."

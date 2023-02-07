@@ -1,0 +1,5 @@
+<img src={logo} alt=""/>
+
+<MyComp message="Hello World" value={42} data={[1,2,3]} />
+
+<img src={`${process.env.PUBLIC_URL}/images/50-california-st.jpg`}      
