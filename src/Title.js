@@ -5,7 +5,7 @@ import './Title.css';
 function Title() {
   return (
     <div className='Title'>
-      <h1>react-tutorial</h1>
+      <h1>SFPOPOS</h1>
       <div className="Title-Subtitle">San Franciscos Privately Owned Public Spaces</div>
     </div>  
   )
