@@ -1,0 +1,12 @@
+/* src/Footer.css */
+.Footer {
+    width: 100;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 2em;
+    gap: 3em;
+ 
+    
+  }
