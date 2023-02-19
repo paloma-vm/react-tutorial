@@ -1,4 +1,4 @@
-// src/POPOSSpace.js
+// src/components/POPOSSpace/POPOSSpace.js
 import React from 'react';
 import './POPOSSpace.css';
 import { Link } from 'react-router-dom';
