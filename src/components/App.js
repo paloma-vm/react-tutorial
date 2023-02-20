@@ -1,13 +1,13 @@
 import './App.css';
 import React from 'react';
-import Title from './Title/Title';
+import Header from './Header/Header';
 
 import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Title />
+      <Header />
       <Outlet />
     </div>
   );
