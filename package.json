@@ -10,9 +10,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
     "react-scripts": "^2.1.3",
-    "web-vitals": "^2.1.4",
-    "homepage": "http://paloma-vm.github.io/react-tutorial"
+    "web-vitals": "^2.1.4"
   },
+  "homepage": "http://paloma-vm.github.io/react-tutorial",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
