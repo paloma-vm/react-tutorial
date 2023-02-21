@@ -8,17 +8,20 @@ function Header() {
   return (
     <div className="Header">
       <header>
-        <h1>SFPOPOS</h1>
-        <div className="Header-Subtitle">San Francisco Privately Owned Public Open Spaces</div>
-
-        <div className='a'>
-        <NavLink 
-                className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-                to="/">List</NavLink>
-        <NavLink 
-                className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-                to="/about">About</NavLink>
-        <RandomSpace />
+        <div className='Header-left'>
+          <h1>SFPOPOS</h1>
+          <div className="Header-Subheader">San Francisco Privately Owned Public Open Spaces</div>
+        </div>
+        <div className='Header-right'>
+          <div className='a'>
+          <NavLink 
+                  className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
+                  to="/">List</NavLink>
+          <NavLink 
+                  className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
+                  to="/about">About</NavLink>
+          <RandomSpace className='RandomSpace'/>
+          </div>
         </div>
 
       </header>
